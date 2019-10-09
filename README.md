@@ -1,6 +1,6 @@
 # Ubuntu-touch
 
-Things that work:
+**Things that work:**
 
 -GUI
 
@@ -19,7 +19,7 @@ Things that work:
 -Anbox
 
 
-Things that doesn't work:
+**Things that doesn't work:**
 
 -Bluetooth
 
