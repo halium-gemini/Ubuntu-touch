@@ -44,6 +44,11 @@
   # anything when reading so this is ok.
   /{,var/}run/systemd/journal/stdout rw,
 
+  /socket/property_service       wr,
+  /dev/tty                       r,
+  /proc/cmdline                  r,
+  /socket/logdw                  w,
+
   /usr/lib{,32,64}/arm-linux-gnueabihf/**  mr,
   /usr/lib{,32,64}/locale/**             mr,
   /usr/lib{,32,64}/gconv/*.so            mr,
