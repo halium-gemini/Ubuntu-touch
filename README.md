@@ -18,13 +18,13 @@
 
 -Anbox
 
+-Power off charging animation
+
 
 **Things that doesn't work:**
 
 -Bluetooth
 
 -Camera
-
--Power off charging animation
 
 -AppArmor: many profiles appear to be missing
