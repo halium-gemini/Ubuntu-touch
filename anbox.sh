@@ -9,4 +9,4 @@ mkdir /home/phablet/anbox-data/data
 sudo chmod -R o+wrx /home/phablet/anbox-data/data
 sudo start -q anbox-container
 start -q anbox-session
-echo please reboot device!
+echo "please wait some minutes and reboot the device (if android apps don't show in the app list try to wait and reboot again)!"
