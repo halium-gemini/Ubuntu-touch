@@ -45,9 +45,9 @@
   /{,var/}run/systemd/journal/stdout rw,
 
   /socket/property_service       wr,
-  /dev/tty                       r,
+  /dev/tty                       rw,
   /proc/cmdline                  r,
-  /socket/logdw                  w,
+  /socket/logdw                  rw,
 
   /usr/lib{,32,64}/arm-linux-gnueabihf/**  mr,
   /usr/lib{,32,64}/locale/**             mr,
@@ -140,6 +140,9 @@
   # some applications will display license information
   /usr/share/common-licenses/**  r,
 
+  # some applications need translations
+  /usr/share/qt5/translations/** r,
+  
   # glibc statvfs
   @{PROC}/filesystems            r,
 
