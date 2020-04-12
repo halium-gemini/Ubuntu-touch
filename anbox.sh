@@ -1,4 +1,5 @@
 #!/bin/sh
+cd ~
 sudo mount -o remount,rw /
 sudo apt update
 sudo apt install -y anbox-ubuntu-touch
