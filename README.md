@@ -12,7 +12,7 @@
 
 -WiFi
 
--Rild (messages and calls not tested)
+-Rild
 
 -Audio
 
@@ -27,4 +27,8 @@
 
 -Camera
 
--AppArmor: many profiles appear to be missing
+-Messages (not tested)
+
+-Calls
+
+-3.5mm headphones (arm64 rootfs)
